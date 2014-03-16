@@ -1,0 +1,10 @@
+<div>
+	<h1>Welcome to my app: "{{title}}"</h1>
+	<h2>Links</h2>
+	<ul>
+		{{#link-to 'about'}}<li>About</li>{{/link-to}}
+	</ul>
+	<div class="stage">
+		{{outlet}}
+	</div>
+</div>

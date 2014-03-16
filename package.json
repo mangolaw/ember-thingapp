@@ -1,0 +1,33 @@
+{
+  "name": "ember-things",
+  "version": "0.0.0",
+  "description": "Ember app for thiing frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mangolaw/ember-thingapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mangolaw/ember-thingapp/issues"
+  },
+  "homepage": "https://github.com/mangolaw/ember-thingapp",
+  "devDependencies": {
+    "gulp": "~3.5.2",
+    "gulp-util": "~2.2.14",
+    "gulp-uglify": "~0.2.1",
+    "gulp-jshint": "~1.4.2",
+    "gulp-less": "~1.2.1",
+    "gulp-clean": "~0.2.4",
+    "gulp-serve": "~0.1.1",
+    "gulp-concat": "~2.1.7",
+    "gulp-ember-handlebars": "~0.6.0",
+    "streamqueue": "0.0.5",
+    "event-stream": "~3.1.0"
+  },
+  "dependencies": {}
+}
